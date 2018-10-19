@@ -1,2 +1,2 @@
-# Wo-Bu-Zhuan-Wan
-我不转弯 操作指南：
+# 我不转弯
+FLAG=绝不弃project而逃！
