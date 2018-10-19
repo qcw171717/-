@@ -36,5 +36,7 @@ for w in word_str.split():
 	else:
 		unique_lst.append(w)
 
-with open('word_str.pkl', 'wb') as f:
-	pickle.dump(word_str, f)
+with open('word_str.pickle', 'rb') as f:
+	s = pickle.load(f)
+	print(s)
+	#pickle.dump(word_str, f)
