@@ -44,7 +44,7 @@ if __name__ == '__main__':
 		time.sleep(0.1)
 		print()
 	time.sleep(0.5)
-	print('好嘞，你已进入主程序。')
+	print('好了，你已进入主程序。')
 	time.sleep(0.5)
 
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 		while inp != '1' and inp != '2':
 			inp = input(FAIL + '暂时不接受' + inp + '选项。朋友请选1或者2😂\n' + ENDC)
 		if inp == '1':
-			encoded = input(HEADER + '好滴嘞，请输入你想解读的信息：' + ENDC)
+			encoded = input(HEADER + '好滴，请输入你想解读的信息：' + ENDC)
 			time.sleep(1)
 			print('\n运算中...\n')
 			for i in range (5):
