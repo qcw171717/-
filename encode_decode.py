@@ -10,6 +10,7 @@ def encode(readable_w : str):
 			to_print += str(lst_of_words.index(char)) + ' '
 		else:
 			lst_of_words.append(char)
+			to_print += str(lst_of_words.index(char)) + ' '
 
 	with open('word_str.pickle', 'wb') as f:
 		pickle.dump(lst_of_words, f)
