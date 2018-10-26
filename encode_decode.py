@@ -21,7 +21,6 @@ def encode(readable_w : str):
 def decode(coded_w : str):
 	with open('word_str.pickle', 'rb') as f:
 		lst_of_words = pickle.load(f)
-
 	lst_of_indices = coded_w.split()
 	readable_w = ''
 	for i in lst_of_indices:
